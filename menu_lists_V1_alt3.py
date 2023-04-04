@@ -1,5 +1,9 @@
+cmb_1 = "cmb_1"
+cmb_2 = "cmb_2"
+cmb_3 = "cmb_3"
 combos = {}
-for i in range(1, 11):
-    items_key = f"items_{i}"
-    prices_key = f"prices_{i}"
-    combos[f"cmb_{i}"] = {items_key: [None, None, None], prices_key: [None, None, None]}
+combos[cmb_1] = {"items_1": ["item1", "item2", "item3"], "prices_1": [0, 0, 0]}
+combos[cmb_2] = {"items_2": ["item4", "item5", "item6"], "prices_2": [0, 0, 0]}
+combos[cmb_3] = {"items_3": ["item7", "item8", "item9"], "prices_3": [0, 0, 0]}
+print(combos)
+
